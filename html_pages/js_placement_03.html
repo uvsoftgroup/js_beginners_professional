@@ -1,0 +1,33 @@
+<html>
+<!-- head section -->
+   <head>
+   <!-- js section -->
+      <script type = "text/javascript">
+         <!--
+		    var sayGlobal="Hello World Global"
+			
+            function sayHello() {
+			var sayLocal="Hello World Local"
+               alert(sayLocal)
+            }
+			
+			function sayHello2() {
+               alert(sayGlobal)
+            }
+         //-->
+      </script>
+   </head>
+   <!-- body section -->
+   <body>
+   <!-- js section -->
+      <script type = "text/javascript">
+         <!--
+            document.write("Hello World")
+         //-->
+      </script>
+	  
+      <input type = "button" onclick = "sayHello()" value = "Say Hello Local" />
+	  <input type = "button" onclick = "sayHello2()" value = "Say Hello Global" />
+	  
+   </body>
+</html>

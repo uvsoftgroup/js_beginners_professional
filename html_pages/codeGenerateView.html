@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="../your_custom_js_libraries/codeGenerate.js"></script>
+<link rel="stylesheet" type="text/css" href="../css_scripts/style.css">
+ </head>
+
+<body>
+<br>
+<form id="generator-form">
+
+ <p id="linkgeneratedIdDynamic"></p>
+ <input class="inputC1" type="text" id="linkSize" name="linkSize" value="8" > 
+ <input class="inputC2" type="text" id="link" name="link" value="www.test-roller.de/product" >
+ <input class="inputC3" type="text" id="codeIdDynamic" name="codeIdDynamic" value="4433">
+ 
+ <input class="buttonSearch" type="button" value="Dynamic Code Generator"  
+ 
+ onclick="codeGeneratorDynamic(linkSize.value, link.value, codeIdDynamic.value)"
+ 
+</form>
+<form id="generator-form">
+ <p id="linkgeneratedIdStatic"></p>
+ <input class="inputC1" type="text" id="codeIdStatic" name="codeIdStatic" value="4433">
+ 
+ <input  class="buttonSearch" type="button" value="Custom Code Generator" 
+ 
+ onclick="codeGeneratorStatic(codeIdStatic.value)"
+ </form>
+ <br>
+ <br>
+ 
+ <table border="1">
+ <tr>
+ <td>
+ <input type="text" id="copyOne" name="copyOne" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyOne" value="Copy" /> 
+ </td>
+ 
+ <td>
+ <input type="text" id="copyTwo" name="copyTwo" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyTwo" value="Copy" /> 
+ </td>
+ <td>
+ <input type="text" id="copyThree" name="copyThree" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyThree" value="Copy" /> 
+ </td>
+ <td>
+ <input type="text" id="copyFour" name="copyFour" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyFour" value="Copy" /> 
+ </td>
+ </tr>
+ 
+<tr>
+ <td>
+ <input type="text" id="copyFive" name="copyFive" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyFive" value="Copy" /> 
+ </td>
+ 
+ <td>
+ <input type="text" id="copySix" name="copySix" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopySix" value="Copy" /> 
+ </td>
+ <td>
+ <input type="text" id="copySeven" name="copySeven" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopySeven" value="Copy" /> 
+ </td>
+ <td>
+ <input type="text" id="copyEight" name="copyEight" value=""/>
+ <input class="buttonCopy" type="submit" id="btncopyEight" value="Copy" /> 
+ </td>
+ </tr>
+ </table>
+ 
+</body>
+</html>
